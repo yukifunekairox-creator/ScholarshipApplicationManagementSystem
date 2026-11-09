@@ -23,7 +23,7 @@ PHP, MySQL, HTML, CSS, Bootstrap 5, XAMPP, InfinityFree
 2. Start Apache and MySQL in XAMPP
 3. In phpMyAdmin, create a database named `scholarship_db`
 4. Import `database.sql`
-5. Open http://localhost/scholarship-system/
+5. Open merian.10001mb.com
 
 ## Staff Login
 Open `/admin/login.php`
