@@ -1,0 +1,31 @@
+:root { --brand: #0f766e; --brand-dark: #0b5d57; --brand-soft: #e6f4f1; --ink: #0f2e2b; }
+body { background: #f6f8f7; color: #1f2937; }
+.brand-text { color: var(--brand) !important; }
+.site-nav { box-shadow: 0 1px 8px rgba(0,0,0,.06); }
+.site-nav .nav-link { color: #374151; font-weight: 500; }
+.site-nav .nav-link:hover, .site-nav .nav-link.active { color: var(--brand); }
+.btn-brand { background: var(--brand); border-color: var(--brand); color: #fff; }
+.btn-brand:hover { background: var(--brand-dark); border-color: var(--brand-dark); color: #fff; }
+.btn-outline-brand { color: var(--brand); border-color: var(--brand); }
+.btn-outline-brand:hover { background: var(--brand); color: #fff; }
+.card { border: 0; border-radius: 12px; box-shadow: 0 1px 8px rgba(0,0,0,.06); }
+.hero { background: var(--brand-soft); border-radius: 18px; padding: 3.5rem 2rem; }
+.hero h1 { color: var(--ink); }
+.icon-box { width: 52px; height: 52px; border-radius: 12px; background: var(--brand-soft); color: var(--brand); font-size: 1.4rem; display: flex; align-items: center; justify-content: center; }
+.scholar-card { border-left: 5px solid var(--brand); }
+.amount { color: var(--brand); font-weight: 700; font-size: 1.25rem; }
+.ref-code { font-size: 1.8rem; letter-spacing: 2px; font-weight: 700; color: var(--brand); }
+.site-footer { color: #6b7280; }
+.admin-body { background: #f1f5f4; }
+.sidebar { position: fixed; top: 0; left: 0; bottom: 0; width: 250px; background: var(--ink); flex-direction: column; padding: 1rem; z-index: 100; }
+.sidebar-mobile { background: var(--ink); width: 260px; }
+.sidebar-brand { color: #fff; font-size: 1.25rem; font-weight: 700; padding: .5rem; }
+.side-link { display: block; color: rgba(255,255,255,.75); padding: .65rem .85rem; border-radius: 8px; text-decoration: none; margin-bottom: 4px; }
+.side-link:hover { background: rgba(255,255,255,.08); color: #fff; }
+.side-link.active { background: var(--brand); color: #fff; }
+.admin-main { margin-left: 250px; min-height: 100vh; }
+.admin-topbar { background: #fff; padding: .9rem 1.5rem; box-shadow: 0 1px 6px rgba(0,0,0,.05); }
+.stat-number { font-size: 1.8rem; font-weight: 700; }
+.stat-icon { width: 46px; height: 46px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; }
+.review-box { background: var(--brand-soft); border-radius: 12px; }
+@media (max-width: 991px) { .admin-main { margin-left: 0; } }
